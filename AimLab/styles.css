@@ -1,0 +1,64 @@
+*{
+    color: white;
+    font-family: helvetica;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+}
+#border-game{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgb(119, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#target {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 16px;
+    
+}
+img{
+    height: 500px;
+}
+#container-dados{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    color: black;
+    font-size: 40px;
+}
